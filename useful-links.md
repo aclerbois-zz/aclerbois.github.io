@@ -17,6 +17,3 @@
 ## DevOps
 
 - [.Net Core + SQL Azure app for DevOps Scenarios ](https://github.com/Microsoft/PartsUnlimited)
-
-## Docker
- 
