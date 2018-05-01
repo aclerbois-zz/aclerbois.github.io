@@ -13,6 +13,8 @@ ngrok exposes local servers behind NATs and firewalls to the public internet ove
 
 ![ngrok](/images/ngrok_1.png)
 
+<!-- more -->
+
 Start by downloading the exe file at this location: https://ngrok.com/download
 
 Extract the application, open a console application and go on the directory where ngrok was extracted.

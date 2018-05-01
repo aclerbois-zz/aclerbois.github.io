@@ -10,7 +10,7 @@ comments: true
 ---
 
 When you try to clone a repository, you may have an error like " ssl certificate problem: unable to get local issuer certificate"
-
+<!-- more -->
 And may be the same in command line :
 
 {% highlight c %}
