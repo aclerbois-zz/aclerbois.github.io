@@ -2,7 +2,7 @@
 title: Adrien Clerbois' blog
 description: A clean minimal Theme for Jekyll
 email: adrien.clerbois@outlook.com
-baseurl: /swift
+baseurl: /
 url: "http://aclerbois.github.io" # the base hostname & protocol for your site
 #favicon
 favicon: /favicon.png
