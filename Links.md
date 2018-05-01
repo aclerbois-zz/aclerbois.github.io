@@ -1,4 +1,4 @@
-# My selection of useful articles
+# Useful articles
 
 ## Visual Studio Code
 
