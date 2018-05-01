@@ -1,6 +1,6 @@
 # Site settings
 title: Adrien Clerbois' blog
-description: Developper @ Ingenico, Freelance @ AClerbois, Microsoft MVP Visual Studio and Development Technologies
+description: Developer @ Ingenico, Freelance @ AClerbois, Microsoft MVP Visual Studio and Development Technologies
 email: adrien.clerbois@outlook.com
 baseurl: /
 url: "http://aclerbois.github.io" # the base hostname & protocol for your site

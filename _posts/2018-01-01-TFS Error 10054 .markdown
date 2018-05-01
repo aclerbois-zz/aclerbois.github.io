@@ -2,7 +2,7 @@
 layout: post
 title:  "VSTS errno 10054"
 date:   2018-01-01 10:00:00
-categories: Web
+categories: web
 author: AClerbois
 github_repo_username: aclerbois
 github_repo : aclerbois
@@ -11,6 +11,7 @@ comments: true
 
 During my first commit for a website with a voluminous design, I received the error 10054 in the prompt git as follows:
 <!-- more -->
+
 {% highlight c %}
 
 Error encountered while pushing to the remote repository: Git failed with a fatal error.
