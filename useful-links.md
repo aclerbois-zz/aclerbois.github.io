@@ -12,6 +12,7 @@
 ## Docker
 
 - [Get started with Docker](https://docs.docker.com/get-started/)
+- [Docker Cheat Sheet](docs/Docker-Inc_Commands-Cheat-Sheet.pdf)
 
 ## DevOps
 
@@ -19,4 +20,3 @@
 
 ## Docker
  
-- [Docker Cheat Sheet](docs/Docker-Inc_Commands-Cheat-Sheet.pdf)
