@@ -30,15 +30,5 @@ permalink: /blog/:year/:month/:day/:title
 markdown: kramdown
 
 #Disqus configuration
-disqus_short_name: maangalabscom
+disqus_short_name: adrienclerbois
 disqus_show_comment_count: true
-
-#Can be used for multiple author blogs ! Add name to post For more visit the sample
-authors:
-  pranavrajs:
-    display_name: Pranav Raj S
-    email: pranavrajs@gmail.com
-    fb: pranav.tayberrycreative
-    linkedin: pranavrajs
-    twitter: pranavrajs
-    github: pranavrajs
