@@ -1,20 +1,20 @@
 # Site settings
-title: Swift
+title: Adrien Clerbois' blog
 description: A clean minimal Theme for Jekyll
-email: pranav@maangalabs.com
+email: adrien.clerbois@outlook.com
 baseurl: /swift
-url: "http://pranav.maangalabs.com" # the base hostname & protocol for your site
+url: "http://aclerbois.github.io" # the base hostname & protocol for your site
 #favicon
 favicon: /favicon.png
 
 #feed
 feedburner_username: maangalabs
 #twitter
-twitter_username: pranavrajs
-github_username:  pranavrajs
+twitter_username: aclerbois
+github_username:  aclerbois
 
 #linkedin
-linkedin_username: pranavrajs
+linkedin_username: aclerbois
 
 #google analytics
 google_analytics_id : UA-53386152-2
@@ -22,7 +22,7 @@ google_analytics_id : UA-53386152-2
 gplus_username: 101893920934936418705
 
 #fb_username
-fb_username: pranav.tayberrycreative
+fb_username: adrien.clerbois
 
 #permalink /blog/2014/11/11/this-is-a-sample-post
 permalink: /blog/:year/:month/:day/:title
