@@ -18,7 +18,7 @@ To configure, go on a command line and type this command :
 
 {% highlight c %}
 
-git config –global –add core.editor "code –wait"
+git config --global --add core.editor "code --wait"
 
 {% endhighlight %}
 
@@ -26,6 +26,6 @@ To test this functionality type the following command :
 
 {% highlight c %}
 
-git config –global -e
+git config --global -e
 
 {% endhighlight %}
