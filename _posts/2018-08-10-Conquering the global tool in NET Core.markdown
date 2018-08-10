@@ -16,14 +16,14 @@ As you may already know, the .NET Core allows us to create and run applications 
 If we look at what exists in the open source world and especially under NodeJS, we can download and install an application quite easily. Then, it is automatically accessible from any folder on the PC. 
 Here is an example with node : 
 
-```
+```console
 $ npm install -g myLibrary
 $ myLibrary
 ```
 
 Starting with NET Core SDK 2.1, available since May 30, 2018, Microsoft offers us a similar experience:
 
-```
+```console
 $ dotnet install tool -g myLibrary
 $ myLibrary
 ```
@@ -41,7 +41,7 @@ Here's how to stay in the workspace:
 - Create a configuration file : dotnet new nugetconfig
 - In this configuration file, add the line that defines your directory: 
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
  <packageSources>
@@ -54,7 +54,7 @@ Here's how to stay in the workspace:
 
 Now that our environment is in place, let's go in search of results: let's create our console application : 
 
-```
+```console
 $ dotnet new console -o aclerbois.sayhello.programmez 
 ```
 
@@ -62,7 +62,7 @@ This command creates a new folder named `aclerbois.sayhello.programz` and adds a
 
 Let's start by modifying the program.cs file :
 
-```
+```csharp
 static void Main(string[] args)
 {
     Console.WriteLine("Salut les lecteurs du magazine Programmez!");
@@ -72,7 +72,7 @@ static void Main(string[] args)
 
 In the configuration of our project, we will define the application as a tool. Go to `aclerbois.sayhello.programz.csproj` and configure the project as follows :
 
-```
+```xml
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
@@ -93,7 +93,7 @@ You may be familiar with the OutputType, Version and TargetFramework elements, b
 
 Note: if you want to use the dotnet word in front of the application, you can use the dotnet-helloprogram value. The command to call the console will be:
 
-```
+```console
 $ dotnet helloprogrammez
 ```
 
@@ -103,7 +103,7 @@ $ dotnet helloprogrammez
 
 We are ready to compile and package our application. The `dotnet pack` command will compile the binaries if it is not already done and package it: 
 
-```
+```console
 $ dotnet pack -c Release
 ...
 Successfully created package 
@@ -111,7 +111,7 @@ Successfully created package
 ```
 We only have to install the generated package:
 
-```
+```console
 $ dotnet install tool -g aclerbois.sayhello.programmez
 
 If there were no additional instructions, you can type the following command to invoke the tool: helloprogrammez
@@ -129,7 +129,7 @@ To play the game, open a new command prompt and type the magic word :
 It is very easy to uninstall a CLI application. You must use the `dotnet uninstall tool[package name]` command.
 In our case:  
 
-```
+```console
 dotnet uninstall tool -g aclerbois.sayhello.programz
 ```
 
@@ -138,12 +138,13 @@ dotnet uninstall tool -g aclerbois.sayhello.programz
 Let's take a look at the dotnet install tool command. 
 It is allowed to specify the version of the package you want to install using the CLI `--version` argument. 
 
-```
+```console
 dotnet install tool -g aclerbois.sayhello.programz --version 1.1.0
 ```
 
 You can also install the application only in the context of your working directory. To do this, do not specify the parameter `-g` (or `--global`) 
-```
+
+```console
 dotnet install tool aclerbois.sayhello.programz
 ```
 
@@ -151,8 +152,7 @@ If your application packages are in a remote directory, use the `--source` argum
 
 ## Welcome home 
 
-Our helloprogramming tool is installed in the.dotnet\tools folder in the user directory:
-
+Our helloprogramming tool is installed in the `.dotnet\tools` folder in the user directory:
 
 ![.NET Core](/images/conquer-4.png)
 
@@ -162,7 +162,5 @@ The sources of my example can be found at: (https://github.com/aclerbois/sayhell
 ## Sky's the limit
 
 (Well except for Elon Musk)
+
 Today, the number of resources available on npm's public directory is about 600,000 packages. The diversity of features offered by the community is impressive. The arrival of this new SDK contribution and the possibilities offered by the .NET Core are limitless. I hope that the number of NuGet.org packages will increase exponentially with lots of new tools that will allow us to speed up the way we work. 
-
-
-
