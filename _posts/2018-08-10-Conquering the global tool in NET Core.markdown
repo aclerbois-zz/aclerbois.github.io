@@ -21,6 +21,8 @@ $ npm install -g myLibrary
 $ myLibrary
 ```
 
+<!-- more -->
+
 Starting with NET Core SDK 2.1, available since May 30, 2018, Microsoft offers us a similar experience:
 
 ```console
