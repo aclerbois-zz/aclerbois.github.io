@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Conquering the global tool in .NET Core"
-date:   2016-07-1 22:37:00
+date:   2018-08-10 10:00:00
 categories: Tools
 author: AClerbois
 github_repo_username: aclerbois
