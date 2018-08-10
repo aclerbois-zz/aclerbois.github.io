@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "dotnet watch"
-date:   2016-07-1 22:37:00
+date:   2018-08-10 09:30:00
 categories: dotnet tips
 author: AClerbois
 github_repo_username: aclerbois
