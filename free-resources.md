@@ -1,4 +1,4 @@
-## Resources link
+## Resource links
 
 - [.NET Application Architecture](https://www.microsoft.com/net/learn/architecture)
 
