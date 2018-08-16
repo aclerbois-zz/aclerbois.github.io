@@ -30,5 +30,5 @@ permalink: /blog/:year/:month/:day/:title
 markdown: kramdown
 
 #Disqus configuration
-disqus_short_name: adrienclerbois
+disqus_short_name: aclerbois-blog
 disqus_show_comment_count: true
