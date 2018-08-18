@@ -9,7 +9,7 @@ github_repo: aclerbois
 comments: true
 ---
 
-# How to create a new Azure Container Registry and push images on it.
+## How to create a new Azure Container Registry and push images on it.
 
 ![Azure loves Docker](/images/azure-loves-docker.png)
 
@@ -45,7 +45,7 @@ Azure will explain you a small description of what is an __Azure Container Regis
 
 ![step-3](/images/acr-3.PNG)
 
-> **__Remarks__ : the SKU is proposed with 3 choices** 
+> **Remarks : the SKU is proposed with 3 choices** 
 >
 > |                        | BASIC         | STANDARD      | PREMIUM                                                                                   |
 > |------------------------|---------------|---------------|-------------------------------------------------------------------------------------------|
