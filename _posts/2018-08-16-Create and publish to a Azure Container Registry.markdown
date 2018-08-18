@@ -13,11 +13,11 @@ comments: true
 
 ![Azure loves Docker](/images/azure-lovess-docker.png)
 
-<!-- more -->
-
 If you want like me, have a private image repository to store your Docker projects, using Azure Container Registry is a solution. 
 
-# What is an Azure Container Registry
+<!-- more -->
+
+## What is an Azure Container Registry
 
 > Azure Container Registry is a private registry for hosting container images. Using the Azure Container Registry, you can store Docker-formatted images for all types of container deployments. Azure Container Registry integrates well with orchestrators hosted in Azure Container Service, including Docker Swarm, DC/OS, and Kubernetes. Users can benefit from using familiar tooling capable of working with the open source Docker Registry v2.
 > Use Azure Container Registry to:
@@ -29,7 +29,7 @@ If you want like me, have a private image repository to store your Docker projec
 
 In order to follow this article, you must have installed the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
 
-# Create a new Azure Container Registry (via the web portal)
+## Create a new Azure Container Registry (via the web portal)
 
 * Go on the [Azure Portal](https://portal.azure.com) > Click on __Create a resource__
 
@@ -60,7 +60,7 @@ Click on "__Create__" and wait Azure completes the creation of your new __Azure 
 
 ![step-4](/images/acr-4.PNG)
 
-## Play with our new __Azure Container Registry__
+### Play with our new __Azure Container Registry__
 
 * Go to the new resource created and admire your new __ACR__ (Azure Container Registry). 
 
@@ -73,7 +73,7 @@ Click on "__Create__" and wait Azure completes the creation of your new __Azure 
 
 **Keep this information handy, we will need it for the rest of this article.**
 
-# Setup our command line environment
+## Setup our command line environment
 
 Begin by login to your Azure ACR subscription: 
 
@@ -95,7 +95,7 @@ Great! we have set up your environment, our next will be to push an image:
 
 ![step-8](/images/acr-8.PNG)
 
-# Publish our first image 
+## Publish our first image 
 
 For this part, I will use an empty .NET Core application with the __Docker Support__ added to the project console.
 
