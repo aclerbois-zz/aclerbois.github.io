@@ -11,7 +11,7 @@ comments: true
 
 # How to create a new Azure Container Registry and push images on it.
 
-![Azure loves Docker](/images/azure-lovess-docker.png)
+![Azure loves Docker](/images/azure-loves-docker.png)
 
 If you want like me, have a private image repository to store your Docker projects, using Azure Container Registry is a solution. 
 
