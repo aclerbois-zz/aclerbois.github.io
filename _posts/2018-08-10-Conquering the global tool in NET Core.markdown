@@ -114,7 +114,7 @@ Successfully created package
 We only have to install the generated package:
 
 ```console
-$ dotnet install tool -g aclerbois.sayhello.programmez
+$ dotnet tool install -g aclerbois.sayhello.programmez
 
 If there were no additional instructions, you can type the following command to invoke the tool: helloprogrammez
 Tool 'aclerbois.sayhello.programmez' (version '1.0.0') was successfully installed.
@@ -132,7 +132,7 @@ It is very easy to uninstall a CLI application. You must use the `dotnet uninsta
 In our case:  
 
 ```console
-dotnet uninstall tool -g aclerbois.sayhello.programz
+dotnet tool uninstall -g aclerbois.sayhello.programmez
 ```
 
 ### Details make perfection, and perfection is not a detail, Leonardo da Vinci.
@@ -141,13 +141,13 @@ Let's take a look at the dotnet install tool command.
 It is allowed to specify the version of the package you want to install using the CLI `--version` argument. 
 
 ```console
-dotnet install tool -g aclerbois.sayhello.programz --version 1.1.0
+dotnet tool install -g aclerbois.sayhello.programmez --version 1.1.0
 ```
 
 You can also install the application only in the context of your working directory. To do this, do not specify the parameter `-g` (or `--global`) 
 
 ```console
-dotnet install tool aclerbois.sayhello.programz
+dotnet tool install aclerbois.sayhello.programmez
 ```
 
 If your application packages are in a remote directory, use the `--source` argument with the location of your packages.
